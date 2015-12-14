@@ -1,0 +1,121 @@
+/* Elements */
+html, body {
+   margin:0;
+   padding:0;
+   height:100%;
+   font-family: open sans, sans-serif;
+   font-size: 15px;
+   font-weight: lighter;
+   color: #272727;button
+}
+h1, h2, h3, h4 { font-family: open sans }
+h2, h3 { font-weight: bold }
+h1 { font-size: 40px }
+h2 { font-size: 25px }
+h3 { font-size: 20px }
+h4 { font-size: 18px }
+button { border: none }
+p { line-height: 20px }
+a {
+  color: #272727;
+  text-decoration: none;
+}
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 60px;   /* Height of the footer */
+	background: #E4E9EB;
+	padding: 15px 0;
+}
+header {
+	padding: 20px;
+  background: #E4E9EB;
+}
+header h1 {
+  margin: 0 ;
+  font-family: 'Montserrat', sans-serif;
+}
+header nav { padding: 10px 0px }
+header nav a {
+	padding: 10px;
+  font-size: 14pt;
+}
+header nav a:hover {
+  background: #2F4F4F;
+  color: white;
+}
+
+/* IDs */
+#wrapper {
+	min-height: 100%;
+	position: relative;
+}
+
+#content {
+	padding: 20px;
+  padding-bottom: 110px;
+}
+
+/* Classes */
+.arrow-down {
+	width: 0;
+	height: 0;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-top: 20px solid #2F4F4F;
+  display: inline-block;
+}
+
+.card {
+  background: #E4E9EB;
+  padding: 10px;
+  min-height: 350px;
+}
+.card h4 { margin: 0 }
+
+.jobtitle {
+  font-size: 15px;
+  font-weight: bold;
+  padding: 10px;
+  background: #2F4F4F;
+  color: white;
+}
+.jobdescription { padding: 10px 0 }
+.img-circle { border-radius: 50% }
+.super-title {
+  padding: 20px;
+  background: #2F4F4F;
+  color: white;
+  border-radius: 10px;
+  margin: 0;
+  margin-top: 45px;
+}
+.button {
+  padding: 12px 15px;
+  background-color: #2F4F4F;
+  border-radius: 5px;
+  border-color: #ffffff;
+  font-family: open sans;
+  font-size: 13px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.float-right { float: right }
+.float-left { float: left }
+.float-clear { clear: both }
+
+.width-center {
+	margin: auto;
+	width: 1024px;
+}
+
+.center-text {
+	text-align: center;
+}
+
+.half-width {
+  width: 48%;
+  margin: 1%;
+}
