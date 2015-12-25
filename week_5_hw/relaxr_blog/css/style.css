@@ -44,12 +44,36 @@ Developer @GA in NYC
 /******************************************
 /* ELEMENT STYLES
 /*******************************************/
+a {
+  color: yellow;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+a:hover {
+    background-color: gray;
+    padding: 5px;
+}
 
 body {
      font-family: open sans, sans-serif;
      font-size: 14px;
      line-height: 1.4;
      color: gray;
+}
+
+h1 a {
+  font-family: open sans, sans-serif;
+  font-size: 37px;
+  font-weight: bold;
+  color: white;
+}
+
+h1 a:hover{
+  font-family: open sans, sans-serif;
+  font-size: 37px;
+  font-weight: bold;
+  color: white;
 }
 
 header {
@@ -95,21 +119,6 @@ footer {
 /* CLASSES
 /*******************************************/
 
-/* Center the container */
-
-.sign-up-button {
-  text-align: center;
-  top: 50%;
-  padding: 15px 60px;
-  background-color: #0e1e3f;
-  border: none;
-  border-radius: 5px;
-  font-family: open sans, sans-serif;
-  font-size: 18px;
-  font-weight: bold;
-  color: white;
-}
-
 .content-wrapper {
   width: 960px;
   height: 100%;
@@ -124,6 +133,27 @@ footer {
   background-color: #ffff33;
   width: 100%;
   padding: 25px;
+}
+
+.drop-cap {
+  float: left;
+  font-family: open sans, sans-serif;
+  font-weight: bold;
+  font-size: 38px;
+}
+
+.left-column {
+  width: 70%;
+  float: left;
+  background-color: #f5f5f5;
+  padding: 40px;
+}
+
+.learn-more {
+  font-family: open sans, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: #0e1e3f;
 }
 
 .logo {
@@ -151,15 +181,31 @@ footer {
   padding: 15px 40px 0px 0px;
 }
 
-.left-column {
-  width: 70%;
-  float: left;
-  background-color: #f5f5f5;
-  padding: 40px;
+.sign-up-button {
+  text-align: center;
+  top: 50%;
+  padding: 15px 60px;
+  background-color: #0e1e3f;
+  border: none;
+  border-radius: 5px;
+  font-family: open sans, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
 }
 
 .social-media-icon {
   padding: 15px 15px 30px 15px;
+}
+
+.read-more {
+  float: right;
+  font-family: open sans, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: #0e1e3f;
+  display: inline-block;
+  padding: 10px 0px 0px 0px;
 }
 
 .relaxr-footer-section {
@@ -175,6 +221,13 @@ footer {
   font-weight: bold;
   font-size: 40px;
   color: yellow;
+}
+
+.relaxr-footer-section.copyright {
+  font-family: open sans, sans-serif;
+  font-size: 10px;
+  color: white;
+  padding-top: 20px;
 }
 
 .right-column {
@@ -218,34 +271,3 @@ footer {
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
-
-.read-more {
-  float: right;
-  font-family: open sans, sans-serif;
-  font-size: 18px;
-  font-weight: 600;
-  color: #0e1e3f;
-  display: inline-block;
-  padding: 10px 0px 0px 0px;
-}
-
-.relaxr-footer-section.copyright {
-  font-family: open sans, sans-serif;
-  font-size: 10px;
-  color: white;
-  padding-top: 20px;
-}
-
-.learn-more {
-  font-family: open sans, sans-serif;
-  font-size: 18px;
-  font-weight: bold;
-  color: #0e1e3f;
-}
-
-.drop-cap {
-  float: left;
-  font-family: open sans, sans-serif;
-  font-weight: bold;
-  font-size: 38px;
-}
