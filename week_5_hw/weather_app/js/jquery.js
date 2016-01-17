@@ -15,11 +15,19 @@ $(document).ready(function() {
     console.log(fah)
 
     if (fah < 60) {
+      $('.container').removeClass('red-background')
+      $('.container').removeClass('orange-background')
       $('.container').addClass('blue-background')
-    } else if (60 < fah < 80) {
+    }
+    else if ( 80 >= fah && fah >= 60) {
+      // $('.container').removeClass('red-background')
       $('.container').addClass('orange-background')
-    } else {
+    }
+    else if (fah > 80){
       $('.container').addClass('red-background')
+    }
+    else {
+
     }
   }
 
