@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  
+
 $('.readmore a').click(function(){
     event.preventDefault();
     $('.readmore').hide();

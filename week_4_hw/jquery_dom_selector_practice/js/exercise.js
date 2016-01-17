@@ -5,7 +5,7 @@
 * move on to the next question.
  */
 
-
+$(document).ready(function(){
 //SECTION 1: REPLACE THE SECTIONS THAT SAY REPLACE ME WITH THE CORRECT CODE.
 /**
  * Question 1:
@@ -18,6 +18,12 @@
 	// }
 	//
 	// $(".button1").click(question1);
+
+  //OR...
+
+  // $('.button1').click(function(){
+  //   $('p').addClass('blue');
+  // }); // end button1 click
 
 /**
  * Question 2:
@@ -36,14 +42,12 @@
  * Using jQuery change the content to read "True Fact".
  */
 	//
-	// function question3(){
-	// 	$('ol li.falseFact').html('True Fact');
-	// 	$('ol li.falseFact').css({
-	// 		'color': 'blue', 'fontSize': '20px'
-	// 	})
-	// }
-	//
-	// $('.button1').click(question3);
+	function question3(){
+		$('.falseFact').html('True Fact');
+		$('.falseFact').addClass('trueClass');
+	}
+
+	$('.button1').click(question3);
 
 
 //SECTION 2: Now you are on your own. Write the necessary code to accomplish the following.
@@ -76,11 +80,11 @@
  * When button 2 is clicked, change the html content of all "blockquotes" to be "<span>no quote</span>"
  */
 
-$('.button2').click(question6);
-
-function question6(){
-	$('blockquotes').html('<span>no quote</span>');
-};
+// $('.button2').click(question6);
+//
+// function question6(){
+// 	$('blockquote').html('<span>no quote</span>');
+// };
 
 
 //SECTION 3: This section is more difficult. Try your hand at the next 3 questions.
@@ -121,3 +125,5 @@ function question6(){
 // function question9(){
 // 	$('.wrapper p').css({'color': 'blue', 'fontFamily': 'Georgia'});
 // }
+
+});

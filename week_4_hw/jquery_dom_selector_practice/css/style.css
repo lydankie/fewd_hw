@@ -30,6 +30,10 @@ header{
   margin: 0 auto;
 }
 
+.blue { color: blue; }
+
+.alt-text {display: none;}
+
 h1, h3 {
   text-align: center;
 }
@@ -48,4 +52,3 @@ h3 {
 dt {
   font-weight: bold;
 }
-
