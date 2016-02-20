@@ -1,0 +1,62 @@
+html {
+  font-size: 10px;
+}
+
+header {
+  width: 100%;
+  padding: 10px 40px;
+  box-shadow: 0 4px 10px -2px RGBA(0, 0, 0, .3);
+}
+
+body {
+  color: #56565a;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  font-family: "Sanchez", serif;
+  font-size: 3.8rem;
+}
+
+p {
+  font-size: 2rem;
+  line-height: 3rem;
+}
+
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover { text-decoration: underline }
+
+footer {
+  width: 100%;
+  padding-top: 40px;
+  background-color: #ececec;
+  text-align: center;
+  color: #56565a;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 1.2rem;
+  position: absolute;
+  height: 50px;
+  bottom: 0;
+}
+
+.container {
+  max-width: 750px;
+  padding: 5% 20px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.unicorn {
+  padding: 50px 0px;
+}
+
+.contact-us {
+  font-size: 1.8rem;
+  line-height: 2.6rem;
+  color: #696969;
+}
